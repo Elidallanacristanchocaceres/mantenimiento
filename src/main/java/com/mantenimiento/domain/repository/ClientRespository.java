@@ -1,7 +1,6 @@
 package com.mantenimiento.domain.repository;
 
 import java.util.List;
-
 import com.mantenimiento.domain.entity.Client;
 
 public interface ClientRespository {

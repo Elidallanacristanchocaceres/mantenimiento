@@ -2,71 +2,87 @@ package com.mantenimiento.domain.entity;
 
 public class Product {
     private int id;
-    private String TipoEquipo;
-    private String Marca;
-    private String Modelo;
-    private String Serie;
-    private String Descripcion;
-    private String FechaIngreso;
-    private String FechaEntrega;
-    public Product(int id, String TipoEquipo, String Marca, String Modelo, String Serie, String Descripcion, String FechaIngreso, String FechaEntrega) {
+    private String tipoEquipo;
+    private String marca;
+    private String modelo;
+    private String serie;
+    private String descripcion;
+    private String fechaIngreso;
+    private String fechaEntrega;
+
+    public Product(int id, String tipoEquipo, String marca, String modelo, String serie, String descripcion, String fechaIngreso, String fechaEntrega) {
         this.id = id;
-        this.TipoEquipo = TipoEquipo;
-        this.Marca = Marca;
-        this.Modelo = Modelo;
-        this.Serie = Serie;
-        this.Descripcion = Descripcion;
-        this.FechaIngreso = FechaIngreso;
-        this.FechaEntrega = FechaEntrega;
+        this.tipoEquipo = tipoEquipo;
+        this.marca = marca;
+        this.modelo = modelo;
+        this.serie = serie;
+        this.descripcion = descripcion;
+        this.fechaIngreso = fechaIngreso;
+        this.fechaEntrega = fechaEntrega;
     }
-    
+
+    // Getters y setters
     public int getId() {
         return id;
     }
+
     public void setId(int id) {
         this.id = id;
     }
+
     public String getTipoEquipo() {
-        return TipoEquipo;
+        return tipoEquipo;
     }
-    public void setTipoEquipo(String TipoEquipo) {
-        this.TipoEquipo = TipoEquipo;
+
+    public void setTipoEquipo(String tipoEquipo) {
+        this.tipoEquipo = tipoEquipo;
     }
+
     public String getMarca() {
-        return Marca;
+        return marca;
     }
-    public void setMarca(String Marca) {
-        this.Marca = Marca;
+
+    public void setMarca(String marca) {
+        this.marca = marca;
     }
+
     public String getModelo() {
-        return Modelo;
+        return modelo;
     }
-    public void setModelo(String Modelo) {
-        this.Modelo = Modelo;
+
+    public void setModelo(String modelo) {
+        this.modelo = modelo;
     }
+
     public String getSerie() {
-        return Serie;
+        return serie;
     }
-    public void setSerie(String Serie) {
-        this.Serie = Serie;
+
+    public void setSerie(String serie) {
+        this.serie = serie;
     }
+
     public String getDescripcion() {
-        return Descripcion;
+        return descripcion;
     }
-    public void setDescripcion(String Descripcion) {
-        this.Descripcion = Descripcion;
+
+    public void setDescripcion(String descripcion) {
+        this.descripcion = descripcion;
     }
+
     public String getFechaIngreso() {
-        return FechaIngreso;
+        return fechaIngreso;
     }
-    public void setFechaIngreso(String FechaIngreso) {
-        this.FechaIngreso = FechaIngreso;
+
+    public void setFechaIngreso(String fechaIngreso) {
+        this.fechaIngreso = fechaIngreso;
     }
+
     public String getFechaEntrega() {
-        return FechaEntrega;
+        return fechaEntrega;
     }
-    public void setFechaEntrega(String FechaEntrega) {
-        this.FechaEntrega = FechaEntrega;
+
+    public void setFechaEntrega(String fechaEntrega) {
+        this.fechaEntrega = fechaEntrega;
     }
-    
 }
